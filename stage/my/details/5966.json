@@ -1,0 +1,94 @@
+{
+  "gc": {
+    "category_fields": [
+      {
+        "field_name": "mobile_series_enum",
+        "hide_if_content_matches": {
+          "mobile_series_enum": [
+            "MOBILE_SERIES_OTHERS"
+          ]
+        },
+        "top_label": "TAG_MOBILE_SERIES_LABEL"
+      },
+      {
+        "field_name": "mobile_series",
+        "hide_if_any_content_not_matches": {
+          "mobile_series_enum": [
+            "MOBILE_SERIES_OTHERS",
+            ""
+          ]
+        },
+        "top_label": "TAG_MOBILE_SERIES_LABEL"
+      },
+      {
+        "field_name": "mobile_model_text",
+        "top_label": "TAG_MOBILE_MODEL_LABEL"
+      },
+      {
+        "field_name": "mobile_storage",
+        "top_label": "TAG_MOBILE_STORAGE_LABEL"
+      },
+      {
+        "field_name": "mobile_free_accessories",
+        "full_row": true,
+        "top_label": "TAG_FREE_ACCESSORIES_LABEL"
+      },
+      {
+        "field_name": "mobile_nationality",
+        "top_label": "TAG_LOCAL_INTERNALTIONAL_SET_LABEL"
+      }
+    ],
+    "condition_fields": [
+      {
+        "field_name": "mobile_condition_screen",
+        "full_row": true,
+        "server_formatting_enum_mapping": {
+          "MOBILE_CONDITION_SCREEN_LIGHT_SCRATCHES": "TAG_MOBILE_CONDITION_SCREEN_LIGHT_SCRATCHES_DESCRIPTION",
+          "MOBILE_CONDITION_SCREEN_MINT": "TAG_MOBILE_CONDITION_SCREEN_MINT_DESCRIPTION",
+          "MOBILE_CONDITION_SCREEN_NO_SCRATCHES": "TAG_MOBILE_CONDITION_SCREEN_NO_SCRATCHES_DESCRIPTION",
+          "MOBILE_CONDITION_SCREEN_VISIBLE_SCRATCHES": "TAG_MOBILE_CONDITION_SCREEN_VISIBLE_SCRATCHES_DESCRIPTION"
+        },
+        "top_label": "TAG_SCREEN_LABEL",
+        "type": "paragraph"
+      },
+      {
+        "field_name": "mobile_condition_body",
+        "full_row": true,
+        "server_formatting_enum_mapping": {
+          "MOBILE_CONDITION_BODY_FRESH_IN_BOX": "TAG_MOBILE_CONDITION_BODY_FRESH_IN_BOX_DESCRIPTION",
+          "MOBILE_CONDITION_BODY_LIGHT_MICRO_SCRATCHES": "TAG_MOBILE_CONDITION_BODY_LIGHT_MICRO_SCRATCHES_DESCRIPTION",
+          "MOBILE_CONDITION_BODY_NO_SCRATCHES": "TAG_MOBILE_CONDITION_BODY_NO_SCRATCHES_DESCRIPTION",
+          "MOBILE_CONDITION_BODY_VISIBLE_SCRATCHES": "TAG_MOBILE_CONDITION_BODY_VISIBLE_SCRATCHES_DESCRIPTION"
+        },
+        "top_label": "TAG_BODY_LABEL",
+        "type": "paragraph"
+      },
+      {
+        "field_name": "mobile_manufacturer_warranty",
+        "hide_if_content_matches": {
+          "mobile_manufacturer_warranty": [
+            "MOBILE_MANUFACTURER_WARRANTY_YES"
+          ]
+        },
+        "top_label": "TAG_MANUFACTURER_WARRANTY_LABEL",
+        "type": "paragraph"
+      },
+      {
+        "field_name": "mobile_manufacturer_warranty_expiry",
+        "full_row": true,
+        "hide_if_any_content_not_matches": {
+          "mobile_manufacturer_warranty": [
+            "MOBILE_MANUFACTURER_WARRANTY_YES",
+            ""
+          ]
+        },
+        "top_label": "TAG_MANUFACTURER_WARRANTY_EXPIRY_LABEL",
+        "type": "paragraph"
+      }
+    ],
+    "is_mall_enabled": true,
+    "is_mobile_category": true,
+    "is_price_revision_eligible": true
+  },
+  "type": "gc"
+}

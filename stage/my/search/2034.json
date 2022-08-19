@@ -1,0 +1,52 @@
+{
+  "gc": {
+    "has_caroupay": true,
+    "has_free_shipping": true,
+    "is_layered_condition_enabled": true,
+    "product_detail_components": [
+      {
+        "picker": {
+          "field_name": "mobile_model",
+          "filter_type": "id_or_keyword",
+          "is_multi_selections": true,
+          "is_required": false,
+          "label": "TAG_MOBILE_MODEL_LABEL",
+          "option_set_id": "options_mobile_model:iphonex",
+          "placeholder": "TAG_MULTI_PICKER_PLACEHOLDER",
+          "proto_field_name": "mobile_model",
+          "visible": true
+        },
+        "type": "picker"
+      },
+      {
+        "picker": {
+          "field_name": "mobile_storage",
+          "filter_type": "id_or_keyword",
+          "is_multi_selections": true,
+          "is_required": false,
+          "label": "TAG_MOBILE_STORAGE_LABEL",
+          "option_set_id": "options_mobile_storage:iphonex",
+          "placeholder": "TAG_MULTI_PICKER_PLACEHOLDER",
+          "proto_field_name": "mobile_storage",
+          "visible": true
+        },
+        "type": "picker"
+      },
+      {
+        "picker": {
+          "field_name": "mobile_color",
+          "filter_type": "id_or_keyword",
+          "is_multi_selections": true,
+          "is_required": false,
+          "label": "TAG_COLOR_LABEL",
+          "option_set_id": "options_mobile_color:iphonex",
+          "placeholder": "TAG_MULTI_PICKER_PLACEHOLDER",
+          "proto_field_name": "mobile_color",
+          "visible": true
+        },
+        "type": "picker"
+      }
+    ]
+  },
+  "type": "gc"
+}

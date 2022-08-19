@@ -1,0 +1,25 @@
+{
+  "gc": {
+    "category_fields": [
+      {
+        "field_name": "mobile_storage",
+        "top_label": "TAG_MOBILE_STORAGE_LABEL"
+      },
+      {
+        "field_name": "mobile_color",
+        "top_label": "TAG_COLOR_LABEL"
+      },
+      {
+        "field_name": "mobile_battery_health",
+        "top_label": "TAG_BATTERY_HEALTH_LABEL"
+      }
+    ],
+    "layered_condition_description_overrides": {
+      "3": "TAG_CONDITION_BRAND_NEW_DESCRIPTION",
+      "4": "TAG_CONDITION_LIKE_NEW_DESCRIPTION",
+      "5": "TAG_CONDITION_WELL_USED_DESCRIPTION",
+      "6": "TAG_CONDITION_HEAVILY_USED_DESCRIPTION"
+    }
+  },
+  "type": "gc"
+}

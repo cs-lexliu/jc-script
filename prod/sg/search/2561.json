@@ -1,0 +1,96 @@
+{
+  "gc": {
+    "has_caroupay": true,
+    "has_free_shipping": true,
+    "is_certified_enabled": true,
+    "is_layered_condition_enabled": true,
+    "is_mall_enabled": true,
+    "product_detail_components": [
+      {
+        "picker": {
+          "field_name": "mobile_model",
+          "filter_type": "id_or_keyword",
+          "is_multi_selections": true,
+          "is_required": false,
+          "label": "TAG_MOBILE_MODEL_LABEL",
+          "option_set_id": "options_mobile_model:iphone13",
+          "placeholder": "TAG_MULTI_PICKER_PLACEHOLDER",
+          "proto_field_name": "mobile_model",
+          "visible": true
+        },
+        "type": "picker"
+      },
+      {
+        "picker": {
+          "field_name": "mobile_storage",
+          "filter_type": "id_or_keyword",
+          "is_multi_selections": true,
+          "is_required": false,
+          "label": "TAG_MOBILE_STORAGE_LABEL",
+          "option_set_id": "options_mobile_storage:iphone13",
+          "placeholder": "TAG_MULTI_PICKER_PLACEHOLDER",
+          "proto_field_name": "mobile_storage",
+          "visible": true
+        },
+        "type": "picker"
+      },
+      {
+        "picker": {
+          "field_name": "mobile_color",
+          "filter_type": "id_or_keyword",
+          "is_multi_selections": true,
+          "is_required": false,
+          "label": "TAG_COLOR_LABEL",
+          "option_set_id": "options_mobile_color:iphone13",
+          "placeholder": "TAG_MULTI_PICKER_PLACEHOLDER",
+          "proto_field_name": "mobile_color",
+          "visible": true
+        },
+        "type": "picker"
+      },
+      {
+        "picker": {
+          "field_name": "mobile_free_accessories",
+          "filter_type": "id_or_keyword",
+          "is_multi_selections": true,
+          "is_required": false,
+          "label": "TAG_FREE_ACCESSORIES_LABEL",
+          "option_set_id": "options_mobile:free_accessories",
+          "placeholder": "TAG_MULTI_PICKER_PLACEHOLDER",
+          "proto_field_name": "mobile_free_accessories",
+          "visible": true
+        },
+        "type": "picker"
+      },
+      {
+        "picker": {
+          "field_name": "mobile_nationality",
+          "filter_type": "id_or_keyword",
+          "is_multi_selections": true,
+          "is_required": false,
+          "label": "TAG_LOCAL_INTERNALTIONAL_SET_LABEL",
+          "option_set_id": "options_mobile:nationality",
+          "placeholder": "TAG_MULTI_PICKER_PLACEHOLDER",
+          "proto_field_name": "mobile_nationality",
+          "visible": true
+        },
+        "type": "picker"
+      },
+      {
+        "picker": {
+          "field_name": "mobile_manufacturer_warranty",
+          "filter_type": "id_or_keyword",
+          "is_multi_selections": true,
+          "is_required": false,
+          "label": "TAG_MANUFACTURER_WARRANTY_LABEL",
+          "option_set_id": "options_mobile:manufacturer_warranty",
+          "placeholder": "TAG_MULTI_PICKER_PLACEHOLDER",
+          "proto_field_name": "mobile_manufacturer_warranty",
+          "visible": true
+        },
+        "type": "picker"
+      }
+    ]
+  },
+  "type": "gc"
+}

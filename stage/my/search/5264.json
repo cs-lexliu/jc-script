@@ -1,0 +1,38 @@
+{
+  "gc": {
+    "has_caroupay": true,
+    "has_free_shipping": true,
+    "is_layered_condition_enabled": true,
+    "product_detail_components": [
+      {
+        "picker": {
+          "field_name": "mobile_series_enum",
+          "filter_type": "id_or_keyword",
+          "is_multi_selections": true,
+          "is_required": false,
+          "label": "TAG_MOBILE_SERIES_LABEL",
+          "option_set_id": "options_mobile_series:vivo",
+          "placeholder": "TAG_MULTI_PICKER_PLACEHOLDER",
+          "proto_field_name": "mobile_series_enum",
+          "visible": true
+        },
+        "type": "picker"
+      },
+      {
+        "picker": {
+          "field_name": "mobile_storage",
+          "filter_type": "id_or_keyword",
+          "is_multi_selections": true,
+          "is_required": false,
+          "label": "TAG_MOBILE_STORAGE_LABEL",
+          "option_set_id": "options_mobile_storage:vivo",
+          "placeholder": "TAG_MULTI_PICKER_PLACEHOLDER",
+          "proto_field_name": "mobile_storage",
+          "visible": true
+        },
+        "type": "picker"
+      }
+    ]
+  },
+  "type": "gc"
+}

@@ -1,0 +1,40 @@
+{
+  "gc": {
+    "category_fields": [
+      {
+        "field_name": "mobile_series_enum",
+        "hide_if_content_matches": {
+          "mobile_series_enum": [
+            "MOBILE_SERIES_OTHERS"
+          ]
+        },
+        "top_label": "TAG_MOBILE_SERIES_LABEL"
+      },
+      {
+        "field_name": "mobile_series",
+        "hide_if_any_content_not_matches": {
+          "mobile_series_enum": [
+            "MOBILE_SERIES_OTHERS",
+            ""
+          ]
+        },
+        "top_label": "TAG_MOBILE_SERIES_LABEL"
+      },
+      {
+        "field_name": "mobile_model_text",
+        "top_label": "TAG_MOBILE_MODEL_LABEL"
+      },
+      {
+        "field_name": "mobile_storage",
+        "top_label": "TAG_MOBILE_STORAGE_LABEL"
+      }
+    ],
+    "layered_condition_description_overrides": {
+      "3": "TAG_CONDITION_BRAND_NEW_DESCRIPTION",
+      "4": "TAG_CONDITION_LIKE_NEW_DESCRIPTION",
+      "5": "TAG_CONDITION_WELL_USED_DESCRIPTION",
+      "6": "TAG_CONDITION_HEAVILY_USED_DESCRIPTION"
+    }
+  },
+  "type": "gc"
+}
